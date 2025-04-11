@@ -2,16 +2,20 @@
 <html>
   <head>
     <title>Halaman Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Section 1: Menu -->
-    <table border="1" width="100%">
-      <tr>
-        <td align="center"><a href="#section2">Header</a></td>
-        <td align="center"><a href="#section3">Biodata</a></td>
-        <td align="center"><a href="#section4">Portofolio</a></td>
-      </tr>
-    </table>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="Brand">ASYIF RAMADHAN</div>
+        <ul class="nav-links">
+          <li><a href="#">Header</a></li>
+          <li><a href="#">Biodata</a></li>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Section 2: Judul di Kiri dan Gambar di Kanan -->
     <table border="1" width="100%" id="section2">
@@ -52,9 +56,7 @@
 
     <!-- Section 4: Portofolio -->
     <table border="1" width="100%" id="section4">
-      <tr>
-        <td colspan="3" align="center"><h2>Portofolio</h2></td>
-      </tr>
+      <h2 class="teks-portofolio">Portofolio</h2>
       <tr>
         <td align="center" valign="top">
           <img src="gambar.jpg" alt="Gambar" width="200" />
