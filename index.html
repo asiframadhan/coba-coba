@@ -1,87 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
   <head>
-    <title>Halaman Sederhana</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Asif</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Section 1: Menu -->
-    <nav class="navbar">
-      <div class="navbar-container">
-        <div class="Brand">ASYIF RAMADHAN</div>
-        <ul class="nav-links">
-          <li><a href="#">Header</a></li>
-          <li><a href="#">Biodata</a></li>
-          <li><a href="#">Portfolio</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">
+      <header>
+        <h1>Brand</h1>
+        <nav>
+          <a href="#">Header</a>
+          <a href="#">Biodata</a>
+          <a href="#">Portofolio</a>
+        </nav>
+      </header>
 
-    <!-- Section 2: Judul di Kiri dan Gambar di Kanan -->
-    <table border="1" width="100%" id="section2">
-      <tr>
-        <td width="50%">
-          <h2>Selamat Datang di website saya</h2>
+      <section class="intro">
+        <div>
+          <h2>Selamat Datang di Website Saya</h2>
           <p>
-            ini adalah contoh header dua kolom. kolom kiri berisi teks seperti
-            ini.
+            Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks
+            seperti ini.
           </p>
-          <button>pelajari lebih lanjut</button>
-        </td>
-        <td width="50%" align="center">
-          <img src="gambar.jpg" alt="Gambar" width="200" />
-        </td>
-      </tr>
-    </table>
+          <button>Pelajari Lebih Lanjut</button>
+        </div>
+        <div>
+          <img src="img/profile.jpg" alt="Foto Profil" />
+        </div>
+      </section>
 
-    <!-- Section 3: Biodata dengan 6 Box -->
-    <table border="1" width="100%" id="section3">
-      <tr>
-        <td colspan="3" align="center">
-          <h2>About me</h2>
-          <p>A breaf introduction about myself</p>
-        </td>
-      </tr>
-      <tr>
-        <td align="center">Full Name</td>
-        <td align="center">Education</td>
-        <td align="center">Pekerjaan</td>
-      </tr>
-      <tr>
-        <td align="center">Contact</td>
-        <td align="center">Hobi</td>
-        <td align="center">Alamat</td>
-      </tr>
-    </table>
+      <section class="about">
+        <h3>About Me</h3>
+        <p>A brief introduction about myself</p>
+        <div class="biodata">
+          <div><strong>Full Name:</strong> Asyif</div>
+          <div><strong>Education:</strong> Pelajar</div>
+          <div><strong>Pekerjaan:</strong> Programmer</div>
+          <div><strong>Contact:</strong> asiframadhan302@gmail.com</div>
+          <div><strong>Hobi:</strong> Membaca, Coding</div>
+          <div><strong>Alamat:</strong> Jawa Timur</div>
+        </div>
+      </section>
 
-    <!-- Section 4: Portofolio -->
-    <table border="1" width="100%" id="section4">
-      <h2 class="teks-portofolio">Portofolio</h2>
-      <tr>
-        <td align="center" valign="top">
-          <img src="gambar.jpg" alt="Gambar" width="200" />
-          <h3>Proyek 1</h3>
-          <p>Deskripsi Proyek 1</p>
-        </td>
+      <section class="portofolio">
+        <h3>Portofolio</h3>
+        <table>
+          <tr>
+            <th><img src="img/project1.jpg" alt="Proyek 1" /></th>
+            <th><img src="img/project2.jpg" alt="Proyek 2" /></th>
+            <th><img src="img/project3.jpg" alt="Proyek 3" /></th>
+          </tr>
+          <tr>
+            <td>Proyek 1<br />Deskripsi proyek 1.</td>
+            <td>Proyek 2<br />Deskripsi proyek 2.</td>
+            <td>Proyek 3<br />Deskripsi proyek 3.</td>
+          </tr>
+        </table>
+      </section>
 
-        <td align="center" valign="top">
-          <img src="gambar.jpg" alt="Gambar" width="200" />
-          <h3>Proyek 2</h3>
-          <p>Deskripsi Proyek 2</p>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" valign="top">
-          <img src="gambar.jpg" alt="Gambar" width="200" />
-          <h3>Proyek 3</h3>
-          <p>Deskripsi Proyek 3</p>
-        </td>
-        <td align="center" valign="top">
-          <img src="gambar.jpg" alt="Gambar" width="200" />
-          <h3>Proyek 4</h3>
-          <p>Deskripsi Proyek 4</p>
-        </td>
-      </tr>
-    </table>
+      <footer>2024 Dodi. All rights reserved.</footer>
+    </div>
   </body>
 </html>
